@@ -1,0 +1,218 @@
+* {
+    margin: 0;
+}
+
+/* header section */
+header {
+    background-image: url('./images/banner/banner3.png');
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.header-content {
+    float: right;
+    text-align: right;
+    padding: 200px;
+    justify-content: space-between;
+    max-width: 500px;
+}
+.header-content h1 {
+    color: white;
+    font-size: 60px;
+    padding-bottom: 20px;
+}
+.header-content p {
+    color: aliceblue;
+    padding-bottom: 30px;
+}
+.header-content .btn {
+    padding: 15px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    color: blue;
+    cursor: pointer;
+    background: white;
+    border: none;
+    font-weight: 600;
+}
+
+/* main section */
+main {
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 150px;
+}
+
+/* about section */
+.about {
+    justify-content: space-between;
+    display: flex;
+}
+.about img {
+    height: auto;
+    width: 300px;
+}
+.about-content {
+    max-width: 600px;
+}
+.about-content h1 {
+    font-size: 60px;
+    font-weight: 600;
+    padding-bottom: 25px;
+    padding-top: 30px;
+}
+.about-content p {
+    font-size: 20px;
+    color: rgb(114, 114, 114);
+    text-align: justify;
+}
+
+/* failure section */
+.my-failures {
+    justify-content: space-between;
+    display: flex;
+    padding-top: 100px;
+}
+.my-failures img {
+    height: auto;
+    width: 450px;
+}
+.failure-content {
+    padding-left: 70px;
+    padding-top: 150px;
+}
+.failure-content h1 {
+    font-size: 50px;
+    font-weight: 600;
+    padding-bottom: 25px;
+}
+.failure-content p {
+    font-size: 20px;
+    color: rgb(99, 98, 98);
+    padding-bottom: 25px;
+}
+.failure-content ul li {
+    font-size: 20px;
+    color: rgb(99, 98, 98);
+}
+
+/* plans section */
+.my-plans {
+    justify-content: space-between;
+    display: flex;
+    text-align: center;
+}
+.plan h1 {
+    text-align: center;
+    padding-top: 100px;
+    font-size: 50px;
+    font-weight: 600;
+}
+.plan-box {
+    padding-top: 50px;
+    align-items: center;
+    padding-left: 50px;
+    padding-bottom: 30px;
+}
+.plan-box img {
+    height: 75px;
+    width: 75px;
+}
+.plan-box h2 {
+    font-size: 30px;
+    padding: 10px;
+}
+.plan-box p {
+    font-size: 20px;
+    color: rgb(99, 98, 98);
+}
+
+/* gradient section */
+.gradient{
+    padding-top: 100px;
+    padding-bottom: 100px;   
+}
+.container {
+    position: relative;
+    color: white;
+    font-weight: 600;
+    height: 250px;
+    background-image: linear-gradient(to right,rgb(14, 14, 255), rgb(110, 110, 250), rgb(183, 230, 248));
+  }
+  .text {
+    position: absolute;
+    top: 40px;
+    left: 50px;
+    font-size: 30px;
+    max-width: 500px;
+    text-align: left; 
+  }
+  .gradient button {
+    padding: 15px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    color: blue;
+    cursor: pointer;
+    background: white;
+    border: none;
+    font-weight: 600; 
+}
+
+/* footer section */
+footer{
+    justify-content: space-between;
+    display: flex;
+    background-color: rgb(15, 15, 15);
+    height: 100px;
+    width: auto;
+    padding: 200px;   
+}
+.footer-left{
+    color: white;
+    max-width: 50%;
+}
+.footer-left h1{
+    font-size: 35px;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+.footer-left p{
+    font-size: 15px;
+    font-weight: 400;
+    padding-bottom: 20px;
+    color: lightgray;
+}
+.footer-left img{
+    width: 40px;
+    padding-right: 10px;
+}
+.footer-right{
+    color: white;
+    max-width: 50%;
+}
+.footer-right h2{
+    font-size: 30px;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+.footer-right input{
+    height: 30px;
+    width: 250px;
+    border: 1px solid aliceblue;
+    border-radius: 7px;
+    background: none;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+.footer-right button{
+    padding: 15px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    background: rgb(2, 92, 145);
+    border: none;
+    font-weight: 600;
+}
