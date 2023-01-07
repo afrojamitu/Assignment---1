@@ -140,7 +140,7 @@ main {
     font-weight: 600;
     border-radius: 10px;
     height: 250px;
-    background-image: linear-gradient(to right,rgb(14, 14, 255), rgb(110, 110, 250), rgb(183, 230, 248));
+    background-image: linear-gradient(to right,rgb(23, 141, 209), rgb(2, 42, 58));
   }
   .text {
     position: absolute;
