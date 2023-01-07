@@ -138,6 +138,7 @@ main {
     position: relative;
     color: white;
     font-weight: 600;
+    border-radius: 10px;
     height: 250px;
     background-image: linear-gradient(to right,rgb(14, 14, 255), rgb(110, 110, 250), rgb(183, 230, 248));
   }
