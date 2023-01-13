@@ -47,8 +47,8 @@ main {
 
 /* about section */
 .about {
-    justify-content: space-between;
     display: flex;
+    justify-content: space-between;
 }
 .about img {
     height: auto;
@@ -216,4 +216,80 @@ footer{
     background: rgb(2, 92, 145);
     border: none;
     font-weight: 600;
+}
+
+
+/* responsive styles for mobile */
+
+@media only screen and (max-width:688px){
+    header {
+        background-color: #00a3da;
+        background-image: none;
+        height: 350px;
+    }
+    .header-content {
+        padding: 60px;
+        text-align: right;
+    }
+    .header-content h1 {
+        font-size: 30px;
+        padding-bottom: 10px;
+    }
+    .header-content p {
+        padding-bottom: 15px;
+    }
+    main {
+        margin: 50px 50px;
+    }
+    .about {
+        flex-direction: column;
+    }
+    .about img {
+        width: 100%;
+    }
+    .my-failures {
+        flex-direction: column-reverse;
+        padding-top: 10px;
+    }
+    .my-failures img {
+        width: 100%;
+    }
+    .failure-content {
+        padding-left: 10px;
+        padding-top: 20px;
+    }
+    .plan h1 {
+        padding-top: 40px;
+    }
+    .my-plans {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .plan-box {
+        height: 170px;
+        width: 170px;
+        padding-top: 20px;
+        padding-left: 0px;
+    }
+    .plan-box img {
+        height: 50px;
+        width: 50px;
+    }
+    .plan-box h2 {
+        font-size: 20px;
+    }
+    .plan-box p {
+        font-size: 15px;
+    }
+    footer{
+        flex-direction: column;
+        height: 600px;
+        padding: 50px;   
+    }
+    .footer-left, .footer-right{
+        max-width: 100%;
+    }
+    .hide{
+        display: none;
+    }
 }
